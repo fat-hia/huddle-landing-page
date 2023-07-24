@@ -1,0 +1,138 @@
+/* GENRAL */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+body{
+  font-family: 'Open-sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+/* STYLES */
+
+main{
+  padding: 36px;
+  background: hsl(257, 40%, 49%);
+  background-image: url('../images/bg-mobile.svg');
+  background-repeat: no-repeat, repeat;
+  background-position: top center;
+  background-size: 100%;
+  color: #fff;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+img{
+  text-align: left;
+  margin: 24px 0;
+  width: 100%;
+}
+.logo{
+  max-width: 144px;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+p{
+  max-width: 768px;
+  margin: 20px auto;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+a:hover{
+  color:  hsl(300, 69%, 71%);
+}
+.btn{
+  display: inline-block;
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  font-size: 1.2rem;
+  padding: 8px 60px;
+  border-radius: 50px;  
+  margin: 16px 0;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  
+}
+.btn:hover{
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
+/* Social */
+.social{
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  margin: 8px;
+}
+.social-icon{
+  display: block;
+  border: 1px solid #fff;
+  height: 44px;
+  width: 44px;
+  border-radius: 100%;
+  color: #fff;
+}
+.social-icon:hover{
+  border-color: hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+}
+.fa{
+  position: relative;
+  top: 10px;
+}
+/* Attribution */
+
+.attribution{
+  margin: 48px;
+  font-size: 1.1rem;
+  color: #333;
+}
+.coder{
+  font-size: 1.7rem;
+  font-family: 'Arizonia', cursive;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 960px){
+  main{
+    background-image: url('../images/bg-desktop.svg');
+    background-size: cover;
+  }
+  .left{
+    width: 50%;
+    float: left;
+  }
+  .right{
+    width: 50%;
+    float: right;
+    text-align: left;
+    padding-left: 48px;
+    position: relative;
+    top: 120px;
+  }
+  .social{
+    clear: both;
+    text-align: center;
+    position: relative;
+    float: right;
+  }
+}
