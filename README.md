@@ -11,12 +11,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -33,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/fat-hia/huddle-landing-page)
+- Live Site URL: [Live site URL](https://fat-hia.github.io/huddle-landing-page/)
 
 ## My process
 
@@ -50,5 +45,5 @@ I've practiced using floated elements to create two columns Layout
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Fathia Gamal](https://github.com/fat-hia)
+- Frontend Mentor - [@fat-hia](https://www.frontendmentor.io/profile/fat-hia)
